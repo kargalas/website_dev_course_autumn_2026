@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+    <html lang="fi">
+    <head>
+        <title>Karolus Runonen</title> 
+        <style>
+        p {
+      color: rgb(0, 0, 0);
+    }
+    
+    body {
+      background-color: rgb(231, 230, 230);
+    }
+
+    h1 {
+      font-size: 3em;
+    }
+     .content-box {
+  padding: 18px;
+  margin: 10px;
+  background-color: #417441;
+  border: 1px solid #ccc;
+}
+table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      border: 4px solid #255113;
+      padding: 20px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    label {
+      font-weight: bold;
+    }
+    
+    input[type="text"], input[type="email"] {
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    
+    input[type="submit"] {
+      background-color: #1a691d;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #146218;
+    }   
+.transition-button {
+        background-color: rgb(60, 167, 202);
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .transition-button:hover {
+        background-color: lightcoral;
+      }
+
+.animation-box {
+        width: 50px;
+        height: 50px;
+        background-color: lightgreen;
+        position: relative;
+        animation: move 2s infinite alternate;
+      }
+      
+      @keyframes move {
+        from {
+          left: 0;
+        }
+        to {
+          left: 100px;
+        }
+      }
+
+.pseudo-list li:nth-child(odd) {
+        background-color: rgb(143, 176, 7);
+      }
+      
+      .pseudo-list li:nth-child(even) {
+        background-color: rgb(170, 28, 28);
+      } 
+
+.filter-image {
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+      }
+      
+      .filter-image:hover {
+        filter: grayscale(0%);
+      }
+    
+.quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+      }
+      
+      .quote::before {
+        content: '“';
+        font-size: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: lightgray;       
+}
+ 
+        .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: lightgreen;
+  padding: 20px;
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+.responsive-box {
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .responsive-box {
+    background-color: lightcoral;
+  }
+}
+
+@media (min-width: 601px) {
+  .responsive-box {
+    background-color: lightseagreen;
+    }
+      }</style>
+     </head>
+    <body>
+        <div class="responsive-box">Resize the window to see the effect</div>
+        <div class="flex-container">
+  <div class="box">Box 1</div>
+  <div class="box">Box 2</div>
+  <div class="box">Box 3</div>
+</div>
+
+        <div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>
+</div>
+        <blockquote class="quote">
+        Tämä on testi!
+      </blockquote>
+        <ul class="pseudo-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+      </ul>
+        <div class="animation-box"></div>
+        <button class="transition-button">Hover me</button>
+           <div class="content-box">
+  <h3>IT- tradenomiopiskelija</h3>
+  <p>Karolus Runonen</p>
+</div>
+   <h1 style="color: rgb(60, 122, 32) ;"> Tervetuloa sivulleni!</h1>
+        <p>Tässä olen minä :)</p>
+        <img src="KarolusRunonen-14.jpg" alt="Karolus Runonen" width="300" class="filter-image">
+<h2>Lempiharrastukset</h2>
+    <ol>
+        <li>Salilla käyminen</li>
+        <li>Kitaransoitto</li>
+        <li>Kokkaaminen</li>
+    </ol>
+    <a href="https://www.fressi.fi">Tutustu saliini</a>
+    <br><br>
+<table>
+    <tr>
+        <th>Professional Communication In English</th>
+        <th>&nbsp;&nbsp;&nbsp;&nbsp;Liiketoiminta Ympäristöt</th>
+    </tr>
+    <tr>
+        <td>Ammatti englantia</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;Käsitystä liiketaloudesta</td>
+    </tr>
+    <tr>
+        <td>Opimme tärkeää uutta sanastoa</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;Prosentti matikkaa</td>
+    </tr>
+    <tr>
+        <td>5op/ kurssi</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;5op/ kurssi</td>
+    </tr>   
+    </table>
+    <br><br>
+<form>
+    <label for="name">Nimi:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Sähköposti:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Lähetä">
+    </form>
+    </body>
+    </html>
